@@ -9,6 +9,7 @@ import {
 
 const Home = () => {
   return (
+    <>
 <MDBCarousel>
       <MDBCarouselItem
         className='w-100 d-block'
@@ -28,8 +29,9 @@ const Home = () => {
         src={Concert3}
         alt='...'
       />
+      <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.4)' }}></div>
     </MDBCarousel>
-
+   </>
   )
 }
 
